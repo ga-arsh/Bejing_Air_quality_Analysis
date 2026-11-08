@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  analysis:
+    cmd: python analysis.py
+    deps:
+    - path: analysis.py
+      hash: md5
+      md5: 9a1e90356bd80fd8e5246548a2893385
+      size: 232
+    - path: data/PRSA_Data_Aotizhongxin.csv
+      hash: md5
+      md5: 72a306d7a095e718c2b46ab482d5a1ac
+      size: 2835916
+    outs:
+    - path: outputs/summary.csv
+      hash: md5
+      md5: 6d8c676f5e8474d9194e7f7de7a4c495
+      size: 1247

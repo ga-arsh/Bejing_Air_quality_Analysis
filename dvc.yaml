@@ -1,0 +1,8 @@
+stages:
+  analysis:
+    cmd: python analysis.py
+    deps:
+    - analysis.py
+    - data/PRSA_Data_Aotizhongxin.csv
+    outs:
+    - outputs/summary.csv
